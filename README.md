@@ -1,6 +1,6 @@
 # Assessment-Task-repo
 
-*Technologies Used*
+**Technologies Used**
 Programming
 Python
 Data Processing
@@ -16,12 +16,13 @@ Imbalanced-learn
 Model Persistence
 Joblib
 
-*Assumptions*
+**Assumptions**
 Historical customer behavior represents future churn patterns.
 Available customer features contain meaningful information for prediction.
 The dataset represents a realistic customer subscription environment.
 Trade-offs and Decisions
-Why SMOTE?
+
+**Why SMOTE?**
 
 The dataset had fewer churn examples compared to non-churn customers. SMOTE was used to improve the model's ability to learn churn patterns.
 
@@ -30,7 +31,7 @@ The dataset had fewer churn examples compared to non-churn customers. SMOTE was 
 Customer churn depends on complex interactions between features. Tree-based models such as Random Forest and XGBoost can capture nonlinear relationships effectively.
 
 
-*Testing*
+**Testing**
 
 The notebook was tested by:
 
@@ -41,7 +42,7 @@ Checking evaluation metrics
 Saving and verifying model artifacts
 Future Improvements
 
-*With additional time, the following improvements could be added*
+**With additional time, the following improvements could be added**
 
 Cross-validation on all models
 SHAP-based model explainability
@@ -55,9 +56,9 @@ githubactions ci/cd
 aptuna
 Cloud deployment
 
-*Time Taken*
+**Time Taken**
 
-*Approximately 3 hours including*
+**Approximately 3 hours including**
 
 Data analysis
 Feature engineering
@@ -65,7 +66,5 @@ Model development
 Hyperparameter tuning
 Documentation
 
-*Author*
 
-Faraz Gill
 
