@@ -56,6 +56,9 @@ githubactions ci/cd
 aptuna
 Cloud deployment
 
+**Final Results**
+Three machine learning models (Logistic Regression, Random Forest, and XGBoost) were trained and evaluated using Accuracy, Precision, Recall, F1-score, and ROC-AUC. Random Forest achieved the best overall performance with 84.49% accuracy and an AUC of 0.8447, making it the selected model for the final solution.
+
 **Time Taken**
 
 **Approximately 3 hours including**
