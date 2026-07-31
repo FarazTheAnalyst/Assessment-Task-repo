@@ -1,4 +1,4 @@
-# Assessment-Task-repo
+# Assessment-Task
 
 **Technologies Used**
 
@@ -16,6 +16,27 @@ XGBoost
 Imbalanced-learn
 Model Persistence
 Joblib
+
+## Project Workflow
+
+1. Loaded and explored the dataset.
+2. Performed data cleaning and preprocessing.
+3. Performed feature engineering (created, transformed, or selected features)
+4. Encoded categorical features and handled missing values.
+5. Split the data into training and testing sets.
+6. Trained three machine learning models:
+   - Logistic Regression
+   - Random Forest
+   - XGBoost
+7. Evaluated each model using:
+   - Accuracy
+   - Precision
+   - Recall
+   - F1-score
+   - ROC-AUC
+8. Compared model performance and selected the best-performing model.
+9. Analyzed feature importance to identify the most influential features.
+10. Saved the trained model for future predictions.
 
 **Assumptions**
 Historical customer behavior represents future churn patterns.
